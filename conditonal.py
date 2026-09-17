@@ -136,13 +136,77 @@
 #     case _ :
 #         print("invalid choice!  ")
 
-print("traffic signal")
-color = input("enter color (red/yellow/green) : ")
-if color=="red":
-    print("stop")
-elif color=="yellow":
-    print("get ready")
-elif color=="green":
-    print("go")
-else:
-    print("enter valid color")
+# print("traffic signal")
+# color = input("enter color (red/yellow/green) : ")
+# if color=="red":
+#     print("stop")
+# elif color=="yellow":
+#     print("get ready")
+# elif color=="green":
+#     print("go")
+# else:
+#     print("enter valid color")
+
+
+# print("Menu ")
+# print("1. Check Balance")
+# print("2. Deposit")
+# print("3. Withdraw")
+# print("4. Exit")
+
+# balance = 40000
+# choice = int(input("enter your choice (1-4) : "))
+# a = int(input("enter your choice : "))
+
+# match choice :
+#     case 1 :
+#         print(balance)
+#     case 2 :
+#         deposit = int(input("enter your deposit amount : "))
+#         balance = balance + deposit
+#         print(f"deposited..! your banlance now is {balance} " )
+#     case 3 :
+#         withdraw = int(input("enter your Withdraw amount : "))
+#         if(balance < withdraw) :
+#         balance = balance - withdraw
+#         print(f"withdrawn..! your banlance now is {balance} " )
+        
+#     case 4 :
+#         if b==0:
+#             print("nuber is not divisible by zero")
+#         else:
+#             print (a/b)
+#     case _ :
+#         print("invalid choice!  ")
+
+
+# a=input("Enter rock, paper or scissors: ")
+# b=input("Enter rock, paper or scissors: ")
+# if a==b:
+#      print("Draw")
+# elif a=="rock" and b=="scissors":
+#      print("Player 1 wins") 
+# elif a=="scissors" and b=="paper":
+#     print("Player 1 wins")
+# elif a=="paper" and b=="rock":
+#     print("Player 1 wins")
+# else:
+#      print("Player 2 wins")
+
+# ATM = int(input("Enter your ATM Number:"))
+# PIN = int(input("Enter your PIN:"))
+# if ATM==123456 and PIN==1234:
+#     print("\n ATM menu \n 1. Balance Enquiry \n 2. Cash Withdrawl \n 3. Cash Deposit \n 4. Exit")
+# choice = int(input("Enter your choice:"))
+# if choice==1:
+#     print("Your balance is 1000")
+# elif choice==2:
+#     print("Enter amount to withdraw:")
+#     amount = int(input())
+# elif choice==3:
+#     print("Enter amount to deposit:")
+#     amount = int(input())
+# elif choice==4:
+#     print("Thank you for using our ATM") 
+# else:
+#     print("Invalid ATM or PIN")
